@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nunito-Regular.ttf">
+            <string>Nunito-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="vFr-5K-EFh" customClass="IntrestCell" customModule="Dating_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="169" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gJA-pb-Gvx">
+                <rect key="frame" x="0.0" y="0.0" width="169" height="65"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="whF-SU-CP0">
+                        <rect key="frame" x="0.0" y="0.0" width="169" height="65"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="43l-Kn-Bb6">
+                                <rect key="frame" x="10" y="10" width="149" height="45"/>
+                                <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="43l-Kn-Bb6" secondAttribute="bottom" constant="10" id="10o-5s-ci8"/>
+                            <constraint firstAttribute="trailing" secondItem="43l-Kn-Bb6" secondAttribute="trailing" constant="10" id="qfk-P5-C1E"/>
+                            <constraint firstItem="43l-Kn-Bb6" firstAttribute="leading" secondItem="whF-SU-CP0" secondAttribute="leading" constant="10" id="wBp-fW-aOz"/>
+                            <constraint firstItem="43l-Kn-Bb6" firstAttribute="top" secondItem="whF-SU-CP0" secondAttribute="top" constant="10" id="zdo-2b-dQI"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="whF-SU-CP0" secondAttribute="trailing" id="057-PS-ziD"/>
+                    <constraint firstAttribute="bottom" secondItem="whF-SU-CP0" secondAttribute="bottom" id="abz-bN-mYG"/>
+                    <constraint firstItem="whF-SU-CP0" firstAttribute="top" secondItem="gJA-pb-Gvx" secondAttribute="top" id="hgP-Zs-fh1"/>
+                    <constraint firstItem="whF-SU-CP0" firstAttribute="leading" secondItem="gJA-pb-Gvx" secondAttribute="leading" id="i52-kZ-Tyu"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="169" height="65"/>
+            <connections>
+                <outlet property="intrestLabel" destination="43l-Kn-Bb6" id="Ujx-N2-L64"/>
+            </connections>
+            <point key="canvasLocation" x="223.91304347826087" y="106.80803571428571"/>
+        </collectionViewCell>
+    </objects>
+</document>

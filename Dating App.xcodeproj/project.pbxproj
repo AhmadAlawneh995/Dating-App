@@ -13,6 +13,16 @@
 		0632665023AAC18A000D0F7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0632664E23AAC18A000D0F7F /* Main.storyboard */; };
 		0632665223AAC18D000D0F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0632665123AAC18D000D0F7F /* Assets.xcassets */; };
 		0632665523AAC18D000D0F7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0632665323AAC18D000D0F7F /* LaunchScreen.storyboard */; };
+		0632667323AAE78F000D0F7F /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0632666523AAE78C000D0F7F /* Nunito-Black.ttf */; };
+		0632667623AAE78F000D0F7F /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0632666823AAE78D000D0F7F /* Nunito-SemiBold.ttf */; };
+		0632667723AAE78F000D0F7F /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0632666923AAE78D000D0F7F /* Nunito-Bold.ttf */; };
+		0632667923AAE78F000D0F7F /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0632666B23AAE78D000D0F7F /* Nunito-ExtraBold.ttf */; };
+		0632667B23AAE78F000D0F7F /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0632666D23AAE78E000D0F7F /* Nunito-Italic.ttf */; };
+		0632667C23AAE78F000D0F7F /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0632666E23AAE78E000D0F7F /* Nunito-SemiBoldItalic.ttf */; };
+		0632667D23AAE78F000D0F7F /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0632666F23AAE78E000D0F7F /* Nunito-Regular.ttf */; };
+		0632668223AAE92C000D0F7F /* PaytoneOne.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0632668123AAE92B000D0F7F /* PaytoneOne.ttf */; };
+		0632668523AAF4A1000D0F7F /* IntrestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0632668423AAF4A1000D0F7F /* IntrestCell.xib */; };
+		0632668723AAF4E8000D0F7F /* IntrestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0632668623AAF4E8000D0F7F /* IntrestCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,17 @@
 		0632665123AAC18D000D0F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0632665423AAC18D000D0F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0632665623AAC18D000D0F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0632666523AAE78C000D0F7F /* Nunito-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Black.ttf"; sourceTree = "<group>"; };
+		0632666823AAE78D000D0F7F /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		0632666923AAE78D000D0F7F /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		0632666B23AAE78D000D0F7F /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		0632666D23AAE78E000D0F7F /* Nunito-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Italic.ttf"; sourceTree = "<group>"; };
+		0632666E23AAE78E000D0F7F /* Nunito-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		0632666F23AAE78E000D0F7F /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		0632668023AAE872000D0F7F /* firasanscondensed-regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "firasanscondensed-regular.otf"; sourceTree = "<group>"; };
+		0632668123AAE92B000D0F7F /* PaytoneOne.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PaytoneOne.ttf; sourceTree = "<group>"; };
+		0632668423AAF4A1000D0F7F /* IntrestCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntrestCell.xib; sourceTree = "<group>"; };
+		0632668623AAF4E8000D0F7F /* IntrestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrestCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +77,98 @@
 		0632664723AAC189000D0F7F /* Dating App */ = {
 			isa = PBXGroup;
 			children = (
-				0632664823AAC189000D0F7F /* AppDelegate.swift */,
-				0632664A23AAC189000D0F7F /* SceneDelegate.swift */,
-				0632664C23AAC189000D0F7F /* ViewController.swift */,
-				0632664E23AAC18A000D0F7F /* Main.storyboard */,
-				0632665123AAC18D000D0F7F /* Assets.xcassets */,
-				0632665323AAC18D000D0F7F /* LaunchScreen.storyboard */,
-				0632665623AAC18D000D0F7F /* Info.plist */,
+				0632666223AAC71A000D0F7F /* Supporting Files */,
+				0632666123AAC70F000D0F7F /* LunchScreen */,
+				0632666023AAC6F0000D0F7F /* AppDelegate */,
+				0632665E23AAC6D4000D0F7F /* Controller */,
+				0632665D23AAC6CE000D0F7F /* View */,
+				0632665C23AAC6C6000D0F7F /* Model */,
 			);
 			path = "Dating App";
+			sourceTree = "<group>";
+		};
+		0632665C23AAC6C6000D0F7F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0632665D23AAC6CE000D0F7F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0632665F23AAC6E4000D0F7F /* Main */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0632665E23AAC6D4000D0F7F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0632668323AAF486000D0F7F /* CollectionCell */,
+				0632664C23AAC189000D0F7F /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0632665F23AAC6E4000D0F7F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0632664E23AAC18A000D0F7F /* Main.storyboard */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		0632666023AAC6F0000D0F7F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0632664A23AAC189000D0F7F /* SceneDelegate.swift */,
+				0632664823AAC189000D0F7F /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0632666123AAC70F000D0F7F /* LunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0632665323AAC18D000D0F7F /* LaunchScreen.storyboard */,
+			);
+			name = LunchScreen;
+			sourceTree = "<group>";
+		};
+		0632666223AAC71A000D0F7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0632666323AAE776000D0F7F /* Fonts */,
+				0632665123AAC18D000D0F7F /* Assets.xcassets */,
+				0632665623AAC18D000D0F7F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0632666323AAE776000D0F7F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0632668023AAE872000D0F7F /* firasanscondensed-regular.otf */,
+				0632666523AAE78C000D0F7F /* Nunito-Black.ttf */,
+				0632666923AAE78D000D0F7F /* Nunito-Bold.ttf */,
+				0632666B23AAE78D000D0F7F /* Nunito-ExtraBold.ttf */,
+				0632666D23AAE78E000D0F7F /* Nunito-Italic.ttf */,
+				0632668123AAE92B000D0F7F /* PaytoneOne.ttf */,
+				0632666F23AAE78E000D0F7F /* Nunito-Regular.ttf */,
+				0632666823AAE78D000D0F7F /* Nunito-SemiBold.ttf */,
+				0632666E23AAE78E000D0F7F /* Nunito-SemiBoldItalic.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		0632668323AAF486000D0F7F /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				0632668423AAF4A1000D0F7F /* IntrestCell.xib */,
+				0632668623AAF4E8000D0F7F /* IntrestCell.swift */,
+			);
+			name = CollectionCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +229,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0632667D23AAE78F000D0F7F /* Nunito-Regular.ttf in Resources */,
+				0632668523AAF4A1000D0F7F /* IntrestCell.xib in Resources */,
+				0632667923AAE78F000D0F7F /* Nunito-ExtraBold.ttf in Resources */,
+				0632668223AAE92C000D0F7F /* PaytoneOne.ttf in Resources */,
+				0632667623AAE78F000D0F7F /* Nunito-SemiBold.ttf in Resources */,
 				0632665523AAC18D000D0F7F /* LaunchScreen.storyboard in Resources */,
+				0632667323AAE78F000D0F7F /* Nunito-Black.ttf in Resources */,
+				0632667B23AAE78F000D0F7F /* Nunito-Italic.ttf in Resources */,
+				0632667723AAE78F000D0F7F /* Nunito-Bold.ttf in Resources */,
+				0632667C23AAE78F000D0F7F /* Nunito-SemiBoldItalic.ttf in Resources */,
 				0632665223AAC18D000D0F7F /* Assets.xcassets in Resources */,
 				0632665023AAC18A000D0F7F /* Main.storyboard in Resources */,
 			);
@@ -139,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0632664D23AAC18A000D0F7F /* ViewController.swift in Sources */,
+				0632668723AAF4E8000D0F7F /* IntrestCell.swift in Sources */,
 				0632664923AAC189000D0F7F /* AppDelegate.swift in Sources */,
 				0632664B23AAC189000D0F7F /* SceneDelegate.swift in Sources */,
 			);
@@ -294,7 +408,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alawneh.Dating-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +426,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alawneh.Dating-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
