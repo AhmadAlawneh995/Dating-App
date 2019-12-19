@@ -1,5 +1,6 @@
 {
-    "name":"Margaret, 28",
+    "name":"Margaret",
+    "age":"28",
     "active_enabled" : true,
     "active_state" : "Active Now",
     "active_percentage":"60%",

@@ -241,14 +241,20 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="AboutTitle" destination="Zhj-DM-fi6" id="TES-6V-rqP"/>
                         <outlet property="PageControl" destination="oNX-SY-zeM" id="34f-Rs-1na"/>
                         <outlet property="ScrollView" destination="a39-XC-fkL" id="xgI-4G-7qC"/>
+                        <outlet property="aboutLabel" destination="DSt-Lz-JiW" id="ZKG-en-Yub"/>
                         <outlet property="aboutView" destination="RTr-dU-0zq" id="25z-if-jXn"/>
+                        <outlet property="activeIcon" destination="qlE-a2-rHh" id="UiN-eC-vKX"/>
                         <outlet property="activePrecent" destination="liq-eJ-vaH" id="ITw-cG-YOB"/>
+                        <outlet property="activeState" destination="jXT-81-gQT" id="RsC-Bj-Hgy"/>
                         <outlet property="gradiantView" destination="bDy-O1-J86" id="X36-MP-b42"/>
                         <outlet property="interestsView" destination="BH6-yE-pSx" id="CO6-7I-ynT"/>
                         <outlet property="interstCollectionView" destination="ksv-xn-g2z" id="k1F-y7-yNc"/>
+                        <outlet property="intrestsTitle" destination="A7z-7J-d8O" id="NIb-wo-QpN"/>
                         <outlet property="nameActiveView" destination="05T-ma-X5W" id="C4M-cn-pU7"/>
+                        <outlet property="nameAgeLabel" destination="5Sp-cg-m2d" id="gmD-3p-Sux"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

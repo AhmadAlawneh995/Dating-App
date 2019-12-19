@@ -11,6 +11,7 @@ import Foundation
 // MARK: - UserInformation
 struct UserInformation: Codable {
     let name: String?
+    let age: String?
     let activeEnabled: Bool?
     let activeState, activePercentage, about, gender: String?
     let interest: [Interest]?
@@ -18,6 +19,7 @@ struct UserInformation: Codable {
 
     enum CodingKeys: String, CodingKey {
         case name
+        case age
         case activeEnabled = "active_enabled"
         case activeState = "active_state"
         case activePercentage = "active_percentage"

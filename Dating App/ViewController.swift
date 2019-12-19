@@ -17,7 +17,14 @@ class ViewController: UIViewController,UIScrollViewDelegate {
     @IBOutlet weak var activePrecent: UILabel!
     @IBOutlet weak var gradiantView: UIView!
     @IBOutlet weak var interstCollectionView: UICollectionView!
+    @IBOutlet var nameAgeLabel: UILabel!
+    @IBOutlet var activeState: UILabel!
+    @IBOutlet var activeIcon: UIImageView!
+    @IBOutlet var aboutLabel: UILabel!
+    @IBOutlet var AboutTitle: UILabel!
+    @IBOutlet var intrestsTitle: UILabel!
     
+    lazy var gender = ""
     
    lazy var responseData:UserInformation? = nil
     
@@ -33,10 +40,26 @@ class ViewController: UIViewController,UIScrollViewDelegate {
         activePrecent.layer.masksToBounds = true
         activePrecent.layer.cornerRadius = 10
 
-     
+     setUpUIView()
         
     }
 
+    func setUpUIView(){
+        nameAgeLabel.text = "\(responseData?.name ?? ""), \(responseData?.age ?? "")"
+        activeState.text = responseData?.activeState
+        aboutLabel.text = responseData?.about
+        activePrecent.text = responseData?.activePercentage
+        if responseData?.gender == "female" {
+            gender = "Her"
+        }else{
+            gender = "His"
+
+        }
+        AboutTitle.text = "About \(gender)"
+        
+        intrestsTitle.text = "\(gender) interests"
+        
+    }
 
 
     
