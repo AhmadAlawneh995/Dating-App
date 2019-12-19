@@ -1,0 +1,24 @@
+{
+    "name":"Margaret, 28",
+    "active_enabled" : true,
+    "active_state" : "Active Now",
+    "active_percentage":"60%",
+    "about" : "Product designer by day, animal lover and yoga enthusiast by night.",
+    "gender" : "female",
+    "interest" : [{
+        "interest_title":"Women"
+    },{
+       "interest_title":"Men"
+
+    },{
+        "interest_title":"From 22 to 44"
+
+    }],
+    "images":[{"image_name":"Bitmap"},
+      {"image_name":"Bitmap"},
+      {"image_name":"Bitmap"},
+      {"image_name":"Bitmap"},
+      {"image_name":"Bitmap"}
+      ]
+    
+}
